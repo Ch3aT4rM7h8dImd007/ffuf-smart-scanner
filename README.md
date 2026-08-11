@@ -452,7 +452,7 @@ smart_words.extend([
 python3 -v ffuf_smart_scanner.py example.com
 
 # Test FFUF manually
-ffuf -w /usr/share/wordlists/dirb/common.txt -u https://example.com/FUZZ) -t 10
+ffuf -w /usr/share/wordlists/dirb/common.txt -u https://example.com/FUZZ -t 10
 
 # Check wordlists
 ls -la /usr/share/wordlists/
