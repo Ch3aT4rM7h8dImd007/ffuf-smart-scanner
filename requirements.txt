@@ -1,0 +1,16 @@
+# ============================================
+# FFUF Scanner Dependencies
+# ============================================
+
+# Core dependency for HTTP requests
+requests>=2.25.0,<3.0.0
+
+# For color output (ঐচ্ছিক)
+colorama>=0.4.4
+
+# For better JSON handling (ঐচ্ছিক)
+simplejson>=3.17.0
+
+# Note: FFUF must be installed separately
+# Install: sudo apt install ffuf
+# Or: go install github.com/ffuf/ffuf@latest
