@@ -1,0 +1,232 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+*.whl
+*.tgz
+*.tar.gz
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.env
+.venv
+virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.~*
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+*.temp
+
+# ============================================
+# FFUF Scanner Results
+# ============================================
+ffuf_live_*/
+ffuf_scan_*/
+ffuf_results_*/
+ffuf_*_*/
+*.json
+*.txt
+*.md
+!README.md
+!LICENSE
+!requirements.txt
+
+# Chunk files
+chunk_*.txt
+ffuf_chunk_*.json
+all_found.txt
+smart_wordlist.txt
+
+# ============================================
+# Wordlists (যদি ডাউনলোড করেন)
+# ============================================
+wordlists/
+*.wordlist
+*.lst
+*.dict
+
+# ============================================
+# Reports & Outputs
+# ============================================
+SECRETS_REPORT.md
+filings_*.json
+filings_raw_*.json
+filings_summary_*.txt
+company_info_*.json
+scan_summary.json
+
+# ============================================
+# Sensitive Data
+# ============================================
+*.log
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+.env.local
+.env.*.local
+credentials
+secrets
+*.secret
+
+# ============================================
+# OS Specific
+# ============================================
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+*.dmp
+core.*
+
+# ============================================
+# Linux Specific
+# ============================================
+.*.swp
+.*.swo
+.*~ 
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Backup Files
+# ============================================
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Coverage Reports
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+.coverage_report/
+.pytest_cache/
+.tox/
+
+# ============================================
+# MyPy
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Pyre type checker
+# ============================================
+.pyre/
+
+# ============================================
+# pytype static type analyzer
+# ============================================
+.pytype/
+
+# ============================================
+# Cython debug symbols
+# ============================================
+cython_debug/
+
+# ============================================
+# Profiling data
+# ============================================
+.prof
+*.prof
+
+# ============================================
+# Doxygen
+# ============================================
+doxygen/
+doc/html/
+doc/latex/
+
+# ============================================
+# Sphinx documentation
+# ============================================
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================
+# Package Manager
+# ============================================
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+poetry.lock
+Pipfile.lock
+
+# ============================================
+# Docker
+# ============================================
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.docker
+
+# ============================================
+# GitHub
+# ============================================
+.github/
+*.github
