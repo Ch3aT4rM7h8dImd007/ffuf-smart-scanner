@@ -104,7 +104,7 @@ sudo apt update
 sudo apt install ffuf -y
 
 # Or install via Go
-go install [github.com/ffuf/ffuf/v2@latest](https://github.com/ffuf/ffuf/v2@latest)
+go install https://github.com/ffuf/ffuf/v2@latest
 ```
 
 #### 3. Install Python Dependencies
