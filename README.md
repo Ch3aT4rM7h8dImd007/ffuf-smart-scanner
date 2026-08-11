@@ -93,7 +93,7 @@ The tool features real-time progress tracking, chunk-based processing, live outp
 
 #### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/ffuf-smart-scanner.git](https://github.com/yourusername/ffuf-smart-scanner.git)
+git clone https://github.com/yourusername/ffuf-smart-scanner.git
 cd ffuf-smart-scanner
 ```
 
@@ -202,7 +202,7 @@ python3 ffuf_smart_scanner.py target2.com
 ⏱️  Timeout: 2s per word
 🧵 Threads: 20
 ⏱️  Estimated time: ~24.5s
-🔧 Command: ffuf -w chunk_1.txt:FUZZ -u [https://example.com/FUZZ](https://example.com/FUZZ) -t 20 -timeout 2...
+🔧 Command: ffuf -w chunk_1.txt:FUZZ -u https://example.com/FUZZ -t 20 -timeout 2...
 ──────────────────────────────────────────────────────────────────────
    🟢 FOUND! Status: 200 - /admin
    🟢 FOUND! Status: 200 - /login
@@ -452,7 +452,7 @@ smart_words.extend([
 python3 -v ffuf_smart_scanner.py example.com
 
 # Test FFUF manually
-ffuf -w /usr/share/wordlists/dirb/common.txt -u [https://example.com/FUZZ](https://example.com/FUZZ) -t 10
+ffuf -w /usr/share/wordlists/dirb/common.txt -u https://example.com/FUZZ) -t 10
 
 # Check wordlists
 ls -la /usr/share/wordlists/
@@ -675,7 +675,7 @@ python3 ffuf_smart_scanner.py target1.com target2.com
 
 2. **Clone and run:**
    ```bash
-   git clone [https://github.com/yourusername/ffuf-smart-scanner.git](https://github.com/yourusername/ffuf-smart-scanner.git)
+   git clone https://github.com/yourusername/ffuf-smart-scanner.git
    cd ffuf-smart-scanner
    python3 ffuf_smart_scanner.py example.com
    ```
